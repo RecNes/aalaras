@@ -2,7 +2,7 @@
 ## Automatic Alt Argument Assigner
 
 # Description:
-This tool does scan destination diretory for html files and assigns 
+This tool does scan destination directory for html files and assigns 
 random word from given keywords in the source file to the empty "alt" 
 argument in <img> tags. Keywords are must be comma seperated without
 newline.
