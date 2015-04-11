@@ -42,7 +42,7 @@ class Main():
             print "No arguments given. -h for help"
             sys.exit(2)
         try:
-            opts, args = getopt.getopt(self.argv[1:], "hi:d:",["ifile=", "destdir="])
+            opts, args = getopt.getopt(self.argv[1:], "hi:d:", ["ifile=", "destdir="])
         except getopt.GetoptError:
             print 'Error in arguments'
             sys.exit(2)
